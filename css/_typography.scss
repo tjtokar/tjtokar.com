@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'loveloblack';
+    src: url('fonts/lovelo_black-webfont.eot');
+    src: url('fonts/lovelo_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lovelo_black-webfont.woff') format('woff'),
+         url('fonts/lovelo_black-webfont.ttf') format('truetype'),
+         url('fonts/lovelo_black-webfont.svg#loveloblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'loveloblack';
+	color:#FFF;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a { display: inline-block; }
