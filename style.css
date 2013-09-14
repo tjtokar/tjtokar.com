@@ -5998,7 +5998,7 @@ body {
 
 header {
   background-color: #B44039;
-  background-image: url("img/mebg2.png");
+  background-image: url("img/mebg2.jpg");
   background-size: cover;
   background-position: center center;
   position: fixed;
@@ -6045,7 +6045,7 @@ header {
   position: relative;
   z-index: 1;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background: url("img/pw_maze_white.png"); }
   #work h1, #work h2, #work h3, #work h4, #work h5 {
     color: #333; }
@@ -6086,7 +6086,7 @@ aside {
   position: relative;
   z-index: 1;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background: #333; }
   #about h1 {
     position: relative;
@@ -6142,3 +6142,13 @@ h1, h2, h3, h4, h5 {
 
 a {
   display: inline-block; }
+
+p {
+  font-weight: 300;
+  text-align: justify; }
+
+.red {
+  color: #e14343;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'loveloblack'; }
