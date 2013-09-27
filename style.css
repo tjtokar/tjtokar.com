@@ -113,7 +113,7 @@ figure {
 fieldset {
   padding: 0.35em 0.625em 0.75em;
   margin: 0 2px;
-  border: 1px solid silver; }
+  border: 1px solid #c0c0c0; }
 
 legend {
   padding: 0;
@@ -176,7 +176,7 @@ table {
 
 @media print {
   * {
-    color: black !important;
+    color: #000 !important;
     text-shadow: none !important;
     background: transparent !important;
     box-shadow: none !important; }
@@ -198,7 +198,7 @@ table {
 
   pre,
   blockquote {
-    border: 1px solid #999999;
+    border: 1px solid #999;
     page-break-inside: avoid; }
 
   thead {
@@ -212,7 +212,7 @@ table {
     max-width: 100% !important; }
 
   @page {
-    margin: 2cm 0.5cm; }
+    margin: 2cm .5cm; }
 
   p,
   h2,
@@ -229,21 +229,21 @@ table {
 
   .table td,
   .table th {
-    background-color: white !important; }
+    background-color: #fff !important; }
 
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: black !important; }
+    border-top-color: #000 !important; }
 
   .label {
-    border: 1px solid black; }
+    border: 1px solid #000; }
 
   .table {
     border-collapse: collapse !important; }
 
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #dddddd !important; } }
+    border: 1px solid #ddd !important; } }
 *,
 *:before,
 *:after {
@@ -286,7 +286,7 @@ a:focus {
   text-decoration: underline; }
 
 a:focus {
-  outline: thin dotted #333333;
+  outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
@@ -1493,7 +1493,7 @@ select optgroup {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted #333333;
+  outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
@@ -1770,7 +1770,7 @@ textarea.input-lg {
   user-select: none; }
 
 .btn:focus {
-  outline: thin dotted #333333;
+  outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
@@ -2723,7 +2723,7 @@ input[type="button"].btn-block {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px solid black;
+  border-top: 4px solid #000000;
   border-right: 4px solid transparent;
   border-bottom: 0 dotted;
   border-left: 4px solid transparent;
@@ -2829,7 +2829,7 @@ input[type="button"].btn-block {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0 dotted;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #000000;
   content: ""; }
 
 .dropup .dropdown-menu,
@@ -4023,7 +4023,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .label {
   display: inline;
-  padding: 0.2em 0.6em 0.3em;
+  padding: .2em .6em .3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
@@ -4646,7 +4646,7 @@ a.list-group-item:focus {
   font-weight: bold;
   line-height: 1;
   color: #000000;
-  text-shadow: 0 1px 0 white;
+  text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
   filter: alpha(opacity=20); }
 
@@ -5140,7 +5140,7 @@ body.modal-open,
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 10px; }
 
 .carousel-indicators .active {
@@ -5683,7 +5683,7 @@ td.visible-print {
   background-image: none; }
 
 .btn-default {
-  text-shadow: 0 1px 0 white;
+  text-shadow: 0 1px 0 #fff;
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(white), to(#e6e6e6));
   background-image: -webkit-linear-gradient(top, white, 0%, #e6e6e6, 100%);
   background-image: -moz-linear-gradient(top, white 0%, #e6e6e6 100%);
@@ -6024,9 +6024,9 @@ header {
     text-align: center; }
     #hero p .circle-border {
       margin-bottom: 40px;
-      border: 3px solid white;
+      border: 3px solid #FFF;
       border-radius: 50%;
-      box-shadow: 1px 1px 5px #333333; }
+      box-shadow: 1px 1px 5px #333; }
   #hero .lead {
     color: #FFF;
     margin-bottom: 40px;
@@ -6040,7 +6040,7 @@ header {
     margin-top: 40px; }
 
 #work {
-  box-shadow: -1px 0px 10px #333333;
+  box-shadow: -1px 0px 10px #333;
   margin-top: 700px;
   position: relative;
   z-index: 1;
@@ -6054,7 +6054,7 @@ header {
     margin-bottom: 40px;
     text-align: center; }
   #work .port {
-    box-shadow: 1px 1px 5px #aaaaaa;
+    box-shadow: 1px 1px 5px #AAA;
     opacity: 0.5;
     transition: 0.5s; }
     #work .port:hover {
@@ -6087,7 +6087,7 @@ aside {
   z-index: 1;
   padding-top: 100px;
   padding-bottom: 150px;
-  background: #333; }
+  background: #333333 url("img/pw_maze_black.png"); }
   #about h1 {
     position: relative;
     margin-bottom: 40px;
