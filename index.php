@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>TJ Tokarczyk | Portfolio</title>
+    <title>TJ Tokarczyk | Portfolio | Pittsburgh</title>
     <link href="style.css" rel="stylesheet">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
